@@ -1,4 +1,5 @@
 let g:tyofile = {'python': 'python3', 'c': 'c', 'html': $BROWSER, 'javascript': 'node', 'zsh': '$SHELL', 'go': 'go run', 'java': 'java'}
+" switch to array later
 
 function! GetType(path) abort
   let buf = bufnr(a:path, 1)
